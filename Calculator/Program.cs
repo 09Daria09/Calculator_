@@ -25,7 +25,7 @@ namespace Test
 
                 Console.Write("Что вы хотите сделать: ");
                 use = Convert.ToString(Console.ReadLine());
-
+                
                 if (use == "+")
                 {
                     result = a + b;
@@ -56,6 +56,7 @@ namespace Test
                 {
                     return;
                 }
+
             }
         }
     }
